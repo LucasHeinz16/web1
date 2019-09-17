@@ -1,0 +1,180 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    background-color: gray;
+    width: 468px;
+    height: 60px;
+    
+}
+.box{
+    border: 1px solid #000;
+    width: 468px;
+    height: 60px;
+    margin: 0 auto;   
+}
+
+.cabeçalhoimg{
+    width: 468px;
+    height: 60px;
+    position: relative;;
+    top: 0;
+    text-align: center;
+    background-color: lightblue; 
+}
+/* MENU */
+.home{
+    float: left;
+    background-color: lightblue;
+    width: 156px;
+    height: 25px;
+    text-align: center;
+    border-style:  solid;
+    border-color: white;
+    border-width: 1px;
+    position: relative;
+    top: 0px;
+}
+.produtos{
+    float: left;
+    background-color: lightblue;
+    width: 156px;
+    height: 25px;
+    text-align: center;
+    border-style:  solid;
+    border-color: white;
+    border-width: 1px;
+    position: relative;
+    top: 0;
+}
+.orçamento{
+    float: left;
+    background-color: lightblue;
+    width: 156px;
+    height: 25px;
+    text-align: center;
+    border-style:  solid;
+    border-color: white;
+    border-width: 1px;
+    position: relative;
+    top: 0;
+} 
+/* CONTATO */
+.mapa{
+    background-image: url('imagens/mapa.PNG');
+    width: 257px;
+    height: 190px;
+    position: relative;
+    float: left;
+    top: 70px;
+}
+.formulario{
+    padding: 10px;
+    background-color: lightblue;
+    width: 200px;
+    height: 190px;
+    position: relative;
+    float: right;
+    top: 70px;
+    box-shadow: 6px 5px 10px 1px rgba(0,0,0,0.7);
+}
+.nome{
+    padding: 3px;
+    border-style:solid;
+    border-width: 1px;
+    border-radius: 1px;
+    top: 3px;
+    position: relative;
+}
+.email{
+    padding: 3px;
+    border-style:solid;
+    border-width: 1px;
+    border-radius: 1px;
+    top: 12px;
+    position: relative;
+}
+.mensagem{
+    padding: 3px;
+    border-style:solid;
+    border-width: 1px;
+    border-color: #000;
+    border-radius: 1px;
+    top: 20px;
+    position: relative;
+}
+.botao{
+    padding: 4px 11px;
+    border: 1px solid rgb(75, 140, 184);
+    border-radius: 4px;
+    background-color: rgb(75, 140, 184);
+    color: #fff;
+    cursor:pointer;
+    position: relative;
+    top: 24px;
+}
+.wrap{
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+}
+.card{
+    position: relative;
+    float: left;
+    top: 0px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.8); 
+    width: 150px;
+    height: 190px;
+    margin: 0 10px 0 0;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.0,6);   
+}
+.container{
+    padding: 3px;    
+    background-color: lightblue;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.8); 
+}
+.logofinal{
+    position: relative;
+    float: left;
+    top: 126px;
+    transform: rotate(-20deg);  
+}
+.descricao{
+    width: 150px;
+    top: 106px;
+    font-family: cursive;
+    font-size: 12px;
+    position: relative;
+    float: right;
+    text-align: justify;  
+}
+/* LINK */
+a{
+    text-decoration: none;
+    color: blue;
+    font-family: serif;
+    font-size: 20px;
+}
+a:hover{
+    background-color: white;
+}
+a.cardlink:hover{
+    background-color: lightblue;
+}
+a.linkfinal{
+    color: rgb(131, 220, 250);
+    font-size: 18px;
+    font-family: serif;
+}
+.linksposition{
+    float: left;
+    position: relative;
+    top: 126px;
+    left: 20px;
+    margin: 10px;
+}
